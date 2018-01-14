@@ -24,8 +24,8 @@ if (!PDFJS.PDFViewer || !PDFJS.getDocument) {
 PDFJS.useOnlyCssZoom = true;
 PDFJS.disableTextLayer = true;
 PDFJS.maxImageSize = 1024 * 1024;
-PDFJS.workerSrc = '../../node_modules/pdfjs-dist/build/pdf.worker.js';
-PDFJS.cMapUrl = '../../node_modules/pdfjs-dist/cmaps/';
+PDFJS.workerSrc = 'node_modules/pdfjs-dist/build/pdf.worker.js';
+PDFJS.cMapUrl = 'node_modules/pdfjs-dist/cmaps/';
 PDFJS.cMapPacked = true;
 
 var DEFAULT_URL = '../../web/compressed.tracemonkey-pldi-09.pdf';
